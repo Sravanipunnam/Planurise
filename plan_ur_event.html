@@ -7,6 +7,16 @@
   <link rel="stylesheet" href="plan_ur_event.css">
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="footer.css">
+  <script>
+    function openSidebar() {
+    document.getElementById("sidebar").style.right = "0";
+}
+function closeSidebar() {
+    document.getElementById("sidebar").style.right = "-230px";
+}
+
+  </script>
+
 </head>
 <body>
   <!-- Header -->
@@ -200,7 +210,6 @@
 </footer>
 
   <script>
-    <script src="home.js">
   function selectEvent(type) {
     localStorage.setItem("selectedEvent", type);
   }
